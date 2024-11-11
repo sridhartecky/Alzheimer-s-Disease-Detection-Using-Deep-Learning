@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alzheimer's Detection Full Details</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Alzheimer's Detection Using MRI Details</h1>
+  </header>
+
+  <main>
+    <section id="details">
+      <h2>Project Overview</h2>
+      <p>
+        This project aims to detect Alzheimer’s disease (AD) at an early stage using machine learning and MRI imaging data. Alzheimer’s is the leading cause of dementia in older adults and presents severe cognitive decline as it progresses. With a focus on early detection, this project uses advanced ML techniques to identify patterns associated with AD, potentially enabling more timely interventions and treatment plans.
+      </p>
+
+      <h3>Motivation</h3>
+      <p>
+        With an aging global population, the incidence rates of neurodegenerative diseases like Alzheimer’s are rising. Early detection has proven to be crucial in slowing disease progression, allowing for treatments that are more effective and minimally invasive when administered early. This project addresses the challenge of early-stage detection by implementing a machine learning pipeline that analyzes MRI data to improve diagnostic accuracy.
+      </p>
+
+      <h3>Data Source</h3>
+      <p>
+        The Open Access Series of Imaging Studies (OASIS) dataset is used, containing MRI data for individuals with varying stages of Alzheimer’s. This dataset provides a robust set of neuroimaging features essential for building accurate prediction models.
+      </p>
+
+      <h3>Project Tools and Technologies</h3>
+      <ul>
+        <li><strong>Google Colab:</strong> Used for data analysis and model training, enabling GPU acceleration and convenient cloud-based coding.</li>
+        <li><strong>VSCode:</strong> Used for local development and script testing.</li>
+        <li><strong>Gradio:</strong> Provides an interactive user interface (UI) to make model predictions accessible and user-friendly for clinicians and researchers.</li>
+      </ul>
+      <p>
+        This combination of tools allows for a streamlined, end-to-end solution, making the project adaptable, scalable, and easy to collaborate on.
+      </p>
+
+      <h3>Project Workflow</h3>
+      <h4>Data Collection and Preprocessing</h4>
+      <p>
+        The OASIS dataset is loaded and cleaned to handle any missing values and standardized for MRI data analysis. Feature engineering is applied to ensure the data is suitable for machine learning, focusing on neuroimaging metrics that are indicative of Alzheimer’s disease.
+      </p>
+
+      <h4>Model Development</h4>
+      <p>
+        Several machine learning algorithms are employed to identify the best-performing model for Alzheimer’s prediction:
+      </p>
+      <ul>
+        <li>Decision Tree</li>
+        <li>Random Forest</li>
+        <li>Support Vector Machine</li>
+        <li>Gradient Boosting</li>
+        <li>Voting Classifiers</li>
+      </ul>
+      <p>
+        Hyperparameter tuning is applied to optimize model accuracy and improve detection sensitivity.
+      </p>
+
+      <h4>Model Evaluation</h4>
+      <p>
+        Performance metrics such as Precision, Recall, Accuracy, and F1-score are used to evaluate the effectiveness of each model. The best model achieved an accuracy of 83% on test data, a significant improvement over existing works in Alzheimer’s detection.
+      </p>
+
+      <h4>User Interface Creation</h4>
+      <p>
+        Gradio was used to create an interactive web-based UI, allowing users to upload MRI images and receive instant predictions on Alzheimer’s likelihood. The UI design is clinician-friendly, making it easy for healthcare providers to access model predictions and gain insights.
+      </p>
+
+      <h4>Deployment</h4>
+      <p>
+        The model and interface are deployed through Google Colab and Gradio, ensuring accessibility for continuous testing and feedback.
+      </p>
+
+      <h3>Project Results</h3>
+      <p>
+        The model demonstrated an average accuracy of 83%, indicating its potential for real-world diagnostic applications. This accuracy, along with robust Precision and Recall metrics, highlights the model’s effectiveness in identifying AD-related patterns in MRI scans.
+      </p>
+
+      <h3>Key Insights and Impact</h3>
+      <p>
+        This project exemplifies the potential of machine learning in healthcare, particularly for early disease detection. By identifying neuroimaging markers associated with Alzheimer’s, this tool can support clinicians in early diagnosis, potentially reducing the annual mortality rate and improving patient quality of life through timely intervention.
+      </p>
+
+      <h3>Conclusion</h3>
+      <p>
+        The Alzheimer’s disease detection project successfully integrates machine learning algorithms with an interactive user interface, providing a scalable and accurate diagnostic tool. This project not only offers high diagnostic accuracy but also demonstrates a scalable solution that is both user-friendly and ready for real-world healthcare applications.
+      </p>
+
+      <h3>Future Enhancements</h3>
+      <p>
+        Future work on this project may include expanding the dataset to include a broader demographic, incorporating deep learning techniques for enhanced feature extraction, and improving the UI for mobile accessibility.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Alzheimer's Detection Project Using MRI and DL By Team "CURE-LIGHTS"</p>
+  </footer>
+</body>
+</html>
